@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  return tutorials
+  return titleCasedTutorials;
 }
 
 function toTitleCase(string) {
