@@ -21,7 +21,7 @@ function toTitleCase(string) {
   }).join(' ');
   if (sentence.includes("Oo") {
     const pieces = sentence.split("Oo");
-    const sentence = pieces.join("OO");
+    sentence = pieces.join("OO");
   }
   return sentence;
 }
