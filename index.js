@@ -20,7 +20,7 @@ function toTitleCase(string) {
     return word.charAt(0).toUpperCase() + word.slice(1)
   }).join(' ');
   if (sentence.includes("Oo") {
-    const pieces = sentence.split("Oo");
+    let pieces = sentence.split("Oo");
     sentence = pieces.join("OO");
   }
   return sentence;
